@@ -1,6 +1,6 @@
 {
   "name": "modern-number-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "isLibrary": true,
   "source": "src/numberUtils.ts",
