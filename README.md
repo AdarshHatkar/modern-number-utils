@@ -34,14 +34,11 @@ console.log(result); // 42.12
 ### randomNumberWithFixedLength(length: number): number
 Generates a random number with the specified length (number of digits).
 ```javascript
-import { validateNumberInput } from 'modern-number-utils';
+import { randomNumberWithFixedLength } from 'modern-number-utils';
 
-try {
-    validateNumberInput('abc', 'inputData');
-    // Proceed with further processing
-} catch (error) {
-    console.error(error.message);
-}
+const result = randomNumberWithFixedLength(5);
+console.log(result); // Random number with 5 digits
+
 
 
 
